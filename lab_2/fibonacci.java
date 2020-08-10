@@ -5,7 +5,8 @@ public class fibonacci{
         int b =1;
 
         int index;
-        for (index =0;index < 11 ;index++ ) {
+        for (index =0;index < 11 ;index++ )
+        {
             System.out.print(a+" "+b+" ");
             a = a + b;
             b = a + b;
